@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F84B08EF2A66B9F0002CAAB5 /* templateboardgamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B08EE2A66B9F0002CAAB5 /* templateboardgamesApp.swift */; };
-		F84B08F12A66B9F0002CAAB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B08F02A66B9F0002CAAB5 /* ContentView.swift */; };
+		F84B08EF2A66B9F0002CAAB5 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B08EE2A66B9F0002CAAB5 /* AppMain.swift */; };
 		F84B08F32A66B9F1002CAAB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84B08F22A66B9F1002CAAB5 /* Assets.xcassets */; };
 		F84B08F62A66B9F1002CAAB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F84B08F52A66B9F1002CAAB5 /* Preview Assets.xcassets */; };
+		F84B08FE2A66BA5D002CAAB5 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = F84B08FD2A66BA5D002CAAB5 /* ComposableArchitecture */; };
+		F84B09012A66BB1B002CAAB5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B09002A66BB1B002CAAB5 /* RootView.swift */; };
+		F84B09032A66BB21002CAAB5 /* RootFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B09022A66BB21002CAAB5 /* RootFeature.swift */; };
+		F84B09072A66BB76002CAAB5 /* SystemEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B09062A66BB76002CAAB5 /* SystemEnvironment.swift */; };
+		F84B09092A66BB96002CAAB5 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B09082A66BB96002CAAB5 /* APIError.swift */; };
+		F84B090C2A66BC02002CAAB5 /* BoardgamesFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B090B2A66BC02002CAAB5 /* BoardgamesFeature.swift */; };
+		F84B090E2A66BC66002CAAB5 /* BoardgameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B090D2A66BC66002CAAB5 /* BoardgameModel.swift */; };
+		F84B09102A66BCDF002CAAB5 /* BoardgamesEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B090F2A66BCDF002CAAB5 /* BoardgamesEffects.swift */; };
+		F84B09122A66C0E9002CAAB5 /* BoardgamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B09112A66C0E9002CAAB5 /* BoardgamesView.swift */; };
+		F84B09152A66DD00002CAAB5 /* URLRequest+Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B09142A66DD00002CAAB5 /* URLRequest+Publisher.swift */; };
+		F84B09182A66E0EF002CAAB5 /* ExpandableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B09172A66E0EF002CAAB5 /* ExpandableText.swift */; };
+		F84B091A2A66E10E002CAAB5 /* ExpandableText+More.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B09192A66E10E002CAAB5 /* ExpandableText+More.swift */; };
+		F84B091E2A67126F002CAAB5 /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84B091D2A67126F002CAAB5 /* CustomShapes.swift */; };
+		F863D6F62A67CD3C000D7FA9 /* template.plist in Resources */ = {isa = PBXBuildFile; fileRef = F863D6F52A67CD3C000D7FA9 /* template.plist */; };
+		F87624232A67D1D80038F040 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87624222A67D1D80038F040 /* ConfigManager.swift */; };
+		F87624282A67E4160038F040 /* Color+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87624272A67E4160038F040 /* Color+HEX.swift */; };
+		F87624302A6831470038F040 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F876242F2A6831470038F040 /* SearchBar.swift */; };
+		F87624322A683FDF0038F040 /* RatingStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87624312A683FDF0038F040 /* RatingStar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43FDFA78C78FAF363A694DA9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F84B08EB2A66B9F0002CAAB5 /* templateboardgames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = templateboardgames.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F84B08EE2A66B9F0002CAAB5 /* templateboardgamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = templateboardgamesApp.swift; sourceTree = "<group>"; };
-		F84B08F02A66B9F0002CAAB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F84B08EE2A66B9F0002CAAB5 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		F84B08F22A66B9F1002CAAB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F84B08F52A66B9F1002CAAB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F84B09002A66BB1B002CAAB5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F84B09022A66BB21002CAAB5 /* RootFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFeature.swift; sourceTree = "<group>"; };
+		F84B09062A66BB76002CAAB5 /* SystemEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemEnvironment.swift; sourceTree = "<group>"; };
+		F84B09082A66BB96002CAAB5 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		F84B090B2A66BC02002CAAB5 /* BoardgamesFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardgamesFeature.swift; sourceTree = "<group>"; };
+		F84B090D2A66BC66002CAAB5 /* BoardgameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardgameModel.swift; sourceTree = "<group>"; };
+		F84B090F2A66BCDF002CAAB5 /* BoardgamesEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardgamesEffects.swift; sourceTree = "<group>"; };
+		F84B09112A66C0E9002CAAB5 /* BoardgamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardgamesView.swift; sourceTree = "<group>"; };
+		F84B09142A66DD00002CAAB5 /* URLRequest+Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Publisher.swift"; sourceTree = "<group>"; };
+		F84B09172A66E0EF002CAAB5 /* ExpandableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableText.swift; sourceTree = "<group>"; };
+		F84B09192A66E10E002CAAB5 /* ExpandableText+More.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExpandableText+More.swift"; sourceTree = "<group>"; };
+		F84B091D2A67126F002CAAB5 /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
+		F863D6F52A67CD3C000D7FA9 /* template.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = template.plist; sourceTree = "<group>"; };
+		F87624222A67D1D80038F040 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		F87624272A67E4160038F040 /* Color+HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+HEX.swift"; sourceTree = "<group>"; };
+		F876242F2A6831470038F040 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		F87624312A683FDF0038F040 /* RatingStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingStar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +60,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F84B08FE2A66BA5D002CAAB5 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30DE0452A0D8B3C877E06EBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A4DBF512E51EAA63F48DA61 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A4DBF512E51EAA63F48DA61 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				43FDFA78C78FAF363A694DA9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		F84B08E22A66B9F0002CAAB5 = {
 			isa = PBXGroup;
 			children = (
 				F84B08ED2A66B9F0002CAAB5 /* templateboardgames */,
 				F84B08EC2A66B9F0002CAAB5 /* Products */,
+				30DE0452A0D8B3C877E06EBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +103,13 @@
 		F84B08ED2A66B9F0002CAAB5 /* templateboardgames */ = {
 			isa = PBXGroup;
 			children = (
-				F84B08EE2A66B9F0002CAAB5 /* templateboardgamesApp.swift */,
-				F84B08F02A66B9F0002CAAB5 /* ContentView.swift */,
+				F84B08EE2A66B9F0002CAAB5 /* AppMain.swift */,
+				F8DB4DC42A6729A00088D39C /* Configuration */,
+				F84B08FF2A66BB11002CAAB5 /* Root */,
+				F84B09052A66BB6A002CAAB5 /* Shared */,
+				F84B090A2A66BBE2002CAAB5 /* Boardgames */,
+				F84B09162A66E0E0002CAAB5 /* Utils */,
+				F84B09132A66DCE9002CAAB5 /* Extensions */,
 				F84B08F22A66B9F1002CAAB5 /* Assets.xcassets */,
 				F84B08F42A66B9F1002CAAB5 /* Preview Content */,
 			);
@@ -65,6 +122,65 @@
 				F84B08F52A66B9F1002CAAB5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F84B08FF2A66BB11002CAAB5 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F84B09002A66BB1B002CAAB5 /* RootView.swift */,
+				F84B09022A66BB21002CAAB5 /* RootFeature.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F84B09052A66BB6A002CAAB5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F84B09062A66BB76002CAAB5 /* SystemEnvironment.swift */,
+				F84B09082A66BB96002CAAB5 /* APIError.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F84B090A2A66BBE2002CAAB5 /* Boardgames */ = {
+			isa = PBXGroup;
+			children = (
+				F84B090B2A66BC02002CAAB5 /* BoardgamesFeature.swift */,
+				F84B090D2A66BC66002CAAB5 /* BoardgameModel.swift */,
+				F84B090F2A66BCDF002CAAB5 /* BoardgamesEffects.swift */,
+				F84B09112A66C0E9002CAAB5 /* BoardgamesView.swift */,
+			);
+			path = Boardgames;
+			sourceTree = "<group>";
+		};
+		F84B09132A66DCE9002CAAB5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F84B09142A66DD00002CAAB5 /* URLRequest+Publisher.swift */,
+				F84B09192A66E10E002CAAB5 /* ExpandableText+More.swift */,
+				F87624272A67E4160038F040 /* Color+HEX.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F84B09162A66E0E0002CAAB5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F84B09172A66E0EF002CAAB5 /* ExpandableText.swift */,
+				F84B091D2A67126F002CAAB5 /* CustomShapes.swift */,
+				F876242F2A6831470038F040 /* SearchBar.swift */,
+				F87624312A683FDF0038F040 /* RatingStar.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F8DB4DC42A6729A00088D39C /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F87624222A67D1D80038F040 /* ConfigManager.swift */,
+				F863D6F52A67CD3C000D7FA9 /* template.plist */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +199,9 @@
 			dependencies = (
 			);
 			name = templateboardgames;
+			packageProductDependencies = (
+				F84B08FD2A66BA5D002CAAB5 /* ComposableArchitecture */,
+			);
 			productName = templateboardgames;
 			productReference = F84B08EB2A66B9F0002CAAB5 /* templateboardgames.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +230,9 @@
 				Base,
 			);
 			mainGroup = F84B08E22A66B9F0002CAAB5;
+			packageReferences = (
+				F84B08FC2A66BA5D002CAAB5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = F84B08EC2A66B9F0002CAAB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F84B08F62A66B9F1002CAAB5 /* Preview Assets.xcassets in Resources */,
+				F863D6F62A67CD3C000D7FA9 /* template.plist in Resources */,
 				F84B08F32A66B9F1002CAAB5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +260,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F84B08F12A66B9F0002CAAB5 /* ContentView.swift in Sources */,
-				F84B08EF2A66B9F0002CAAB5 /* templateboardgamesApp.swift in Sources */,
+				F87624282A67E4160038F040 /* Color+HEX.swift in Sources */,
+				F84B09152A66DD00002CAAB5 /* URLRequest+Publisher.swift in Sources */,
+				F84B090C2A66BC02002CAAB5 /* BoardgamesFeature.swift in Sources */,
+				F84B09072A66BB76002CAAB5 /* SystemEnvironment.swift in Sources */,
+				F84B09032A66BB21002CAAB5 /* RootFeature.swift in Sources */,
+				F87624302A6831470038F040 /* SearchBar.swift in Sources */,
+				F84B08EF2A66B9F0002CAAB5 /* AppMain.swift in Sources */,
+				F84B09122A66C0E9002CAAB5 /* BoardgamesView.swift in Sources */,
+				F84B09012A66BB1B002CAAB5 /* RootView.swift in Sources */,
+				F87624232A67D1D80038F040 /* ConfigManager.swift in Sources */,
+				F84B091A2A66E10E002CAAB5 /* ExpandableText+More.swift in Sources */,
+				F84B090E2A66BC66002CAAB5 /* BoardgameModel.swift in Sources */,
+				F84B09102A66BCDF002CAAB5 /* BoardgamesEffects.swift in Sources */,
+				F84B09182A66E0EF002CAAB5 /* ExpandableText.swift in Sources */,
+				F84B09092A66BB96002CAAB5 /* APIError.swift in Sources */,
+				F87624322A683FDF0038F040 /* RatingStar.swift in Sources */,
+				F84B091E2A67126F002CAAB5 /* CustomShapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +408,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = com.yourcompany.template;
 				DEVELOPMENT_ASSET_PATHS = "\"templateboardgames/Preview Content\"";
 				DEVELOPMENT_TEAM = S3MX2GB5D3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Template;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,6 +425,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Dtemplate";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quentindeschamps.templateboardgames;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -299,11 +440,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = com.yourcompany.template;
 				DEVELOPMENT_ASSET_PATHS = "\"templateboardgames/Preview Content\"";
 				DEVELOPMENT_TEAM = S3MX2GB5D3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Template;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,6 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Dtemplate";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quentindeschamps.templateboardgames;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -344,6 +488,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F84B08FC2A66BA5D002CAAB5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.56.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F84B08FD2A66BA5D002CAAB5 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F84B08FC2A66BA5D002CAAB5 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F84B08E32A66B9F0002CAAB5 /* Project object */;
 }
